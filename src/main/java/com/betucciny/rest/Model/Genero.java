@@ -3,7 +3,7 @@ package com.betucciny.rest.Model;
 import javax.persistence.*;
 
 @Entity
-@Table(schema = "videteca")
+@Table(schema = "videoteca")
 public class Genero {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
